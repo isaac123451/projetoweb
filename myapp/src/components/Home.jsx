@@ -4,7 +4,7 @@ import './Home.css';
 export default function Home() {
   return (
     <div className="home-container">
-      {/* Seção do banner promocional */}
+      {}
       <section className="banner" style={{ backgroundImage: "url('/images/banner.jpg')" }}>
         <div className="banner-text">
           <h1>Bem-vindo à Nossa Loja!</h1>
@@ -13,11 +13,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Seção de produtos em destaque */}
+      {}
       <section className="featured-products">
         <h2>Produtos em Destaque</h2>
         <div className="product-grid">
-          {/* Exemplo de produtos */}
+          {}
           <div className="product-card">
             <img src="https://images.tcdn.com.br/img/img_prod/813740/agitador_magnetico_com_aquecimento_fisher_isotemp_10x10hps_230v_941_1_dd0f829e4bd09332bda1be5d4464f61e.png" alt="Produto 1" />
             <h3>Produto 1</h3>
@@ -39,7 +39,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Seção de promoções */}
+      {}
       <section className="promotion">
         <h2>Promoções</h2>
         <div className="promotion-details">
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Seção Sobre Nós */}
+      {}
       <section className="about-section">
         <h2>Sobre Nós</h2>
         <p>Somos uma loja especializada em oferecer produtos de qualidade com preços acessíveis. Nossa missão é proporcionar a melhor experiência de compra para nossos clientes, com atendimento personalizado e entrega rápida.</p>

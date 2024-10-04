@@ -7,24 +7,9 @@ const Navbar = () => {
   const [cartOpen, setCartOpen] = useState(false);
 
   const cartItems = [
-    {
-      id: 1,
-      name: "Balança Determinadora de Umidade",
-      description: "Bel M5 Thermo 163L com Display Touch Screen - 0,001g - 160 g (220V)",
-      price: "R$ 7.297,00"
-    },
-    {
-      id: 2,
-      name: "Item 2",
-      description: "Descrição do item 2.",
-      price: "R$ 30,00"
-    },
-    {
-      id: 3,
-      name: "Item 3",
-      description: "Descrição do item 3.",
-      price: "R$ 20,00"
-    },
+    { id: 1, name: "Balança Determinadora de Umidade", description: "Bel M5 Thermo 163L", price: "R$ 7.297,00" },
+    { id: 2, name: "Item 2", description: "Descrição do item 2.", price: "R$ 30,00" },
+    { id: 3, name: "Item 3", description: "Descrição do item 3.", price: "R$ 20,00" },
   ];
 
   const toggleCart = () => {
@@ -44,6 +29,9 @@ const Navbar = () => {
         <li>
           <Link to="/about">Sobre</Link>
         </li>
+        <li>
+          <Link to="/login">Login</Link> {/* Link de login */}
+        </li>
       </ul>
 
       <div className="search-box">
@@ -58,7 +46,6 @@ const Navbar = () => {
           </div>
         </li>
 
-        {/* Dropdown do carrinho */}
         {cartOpen && (
           <div className="cart-dropdown">
             <ul>
